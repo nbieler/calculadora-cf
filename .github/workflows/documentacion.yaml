@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Saludar
-        uses: actions/hello-world-action-by-perseo@v1.1
+        uses: nbieler/hello-world-action-by-perseo@v1.1
         with: 
           who-to-greet: 'Mona the Octocat'
          
