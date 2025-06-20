@@ -7,6 +7,11 @@ jobs:
   compila:
     runs-on: ubuntu-latest
     steps:
+      - name: Saludar
+        uses: actions/hello-world-action-by-perseo@v1.1
+        with: 
+          who-to-greet: 'Mona the Octocat'
+         
       - name: Tener copia local del repo
         uses: actions/checkout@v4.2.2
 
